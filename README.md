@@ -1,4 +1,4 @@
-# 🧑‍🏫 Student Buddy
+# Student Buddy
 
 Student Buddy is a Chrome extension that acts as a programming mentor while students solve coding problems on platforms like LeetCode.
 
@@ -40,7 +40,7 @@ The project was designed with an AI-powered mentoring system in mind, with Gemin
 ---
 
 ## 🏗️ Project Architecture
-
+```text
 Student Buddy
 │
 ├── Chrome Extension
@@ -53,4 +53,3 @@ Student Buddy
     └── server.js
     
 The current prototype uses a rule-based mentor engine, with Gemini AI planned as a future enhancement.
-```text
