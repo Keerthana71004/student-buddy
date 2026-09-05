@@ -51,5 +51,6 @@ Student Buddy
 │
 └── Node.js Backend
     └── server.js
-    
+```
 The current prototype uses a rule-based mentor engine, with Gemini AI planned as a future enhancement.
+<img width="808" height="1490" alt="Screenshot 2026-09-05 193822" src="https://github.com/user-attachments/assets/cd28a6e9-d3cb-4e5f-bef4-006344a94e5c" />
