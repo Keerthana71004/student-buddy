@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Student Buddy",
+  "version": "1.0.0",
+  "description": "An AI programming mentor that guides students without giving away solutions.",
+
+  "permissions": [],
+
+  "host_permissions": [
+    "https://leetcode.com/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/problems/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+
+  "action": {
+    "default_title": "Student Buddy"
+  }
+}
